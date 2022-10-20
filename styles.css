@@ -1,0 +1,169 @@
+.general {
+
+   margin: 0vw;
+   overflow-x: hidden;
+}
+
+.header {
+
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 6vw;
+    position: fixed;
+    background-color:  rgb(224, 224, 224);
+}
+
+.h-botones {
+    display: inline-block;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    margin-top: 1.5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+    text-decoration: none;
+    width: 9vw;
+    height: 3vw;
+    text-align: center;
+    transition: 1s;
+    padding: 0.5vw;
+}
+
+.h-botones:hover {
+
+    background-color: rgb(255, 255, 255);
+}
+
+.home-back {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vw;
+    background-image: url(./Proyecto/main-background.jpg);
+    background-size: 100vw;
+}
+
+.chalecos-back {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vw;
+    background-image: url(./Proyecto/cuellos-background.jpg);
+    background-size: 100vw;
+}
+
+.gorros-back {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vw;
+    background-image: url(./Proyecto/Gorros-background.jpg);
+    background-size: 100vw;
+}
+
+.usados-back {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vw;
+    background-image: url(./Proyecto/usados-background.jpg);
+    background-size: 100vw;
+}
+
+.contacto-back {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 30vw;
+    background-image: url(./Proyecto/contacto-background.jpg);
+    background-size: 100vw;
+}
+
+.galeria {
+   margin-top: 5vw;
+   margin-bottom: 5vw;
+}
+
+#imagen-margin {
+    margin-top: 2vw;
+    transition: 1s;
+}
+
+#imagen-margin:hover {
+    transform: scale(1.1);
+}
+
+.titulo {
+
+    margin-top: 15vw;
+    margin-left: 3vw;
+    font-size: 5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.texto {
+
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 15vw;
+    text-align: center;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.caja-texto {
+
+    margin-left: 6vw;
+    margin-right: 6vw;
+    margin-top: 4.5vw;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+.home-imagenes {
+
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 20vw;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 100vw;
+    grid-template-rows: 6vw;
+    background-color:  rgb(224, 224, 224);
+    font-family: 'Nanum Gothic', sans-serif;
+    padding-left: 3vw;
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 50vw 50vw;
+    grid-template-rows: 20vw 20vw;
+    background-color:  rgb(224, 224, 224);
+    padding: 5vw;
+    
+}
+
+.datos {
+    display: flex;
+    padding: 1vw;
+}
+
+.caja-texto {
+    display: flex;
+}
+
+
+.titulo-contacto {
+    text-align: center;
+    font-size: 3vw;
+    padding: 1vw;
+}
+
+@media screen and (max-width: 480px) {
+    .galeria {
+        display: grid;
+        padding: 2vw;
+        grid-template-columns: 90vw;
+        grid-template-rows: 60vw
+    }
+
+    .img {
+        display: inline-block;
+        width: 28vw;
+        height: 28vw;
+    }
+
+}
